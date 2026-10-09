@@ -1,0 +1,17 @@
+{
+  "name": "morning-digest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Утренняя сводка в Telegram: погода, календарь, дни рождения и дедлайны. Работает на Google Apps Script.",
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "preview": "node test/preview.js",
+    "login": "clasp login",
+    "create": "node scripts/create-project.js",
+    "push": "clasp push --force",
+    "open": "clasp open-script"
+  },
+  "devDependencies": {
+    "@google/clasp": "^3.4.1"
+  }
+}

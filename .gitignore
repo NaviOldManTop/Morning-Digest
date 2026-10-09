@@ -1,0 +1,4 @@
+node_modules/
+# Привязка к конкретному Apps Script проекту, у каждого своя
+.clasp.json
+.clasprc.json
